@@ -1,0 +1,22 @@
+#map {
+    width: 100%;
+    height: 600px;
+    border-radius: 8px;
+}
+
+#map {
+    position: relative;
+}
+
+#map svg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    pointer-events: none;
+}
+
+#map svg circle {
+    pointer-events: auto;
+}
